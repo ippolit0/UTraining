@@ -1,0 +1,134 @@
+* {
+   padding: 0;
+   margin: 0;
+   bottom: 0;
+   border: 0;
+   font-family: 'Anonymous Pro';
+}
+
+body {
+   position: relative;
+}
+
+button {
+   background-color: rgba(255, 255, 255, 0);
+   opacity: 0.8;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+button:hover {
+   cursor: pointer;
+   opacity: 1;
+}
+
+.container {
+   width: 1178px;
+   margin: 0 auto;
+}
+
+.header_top {
+   position: sticky;
+   top: 0;
+   background-color: #0d0d0d;
+   height: 60px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+}
+.header_top .header_top_inner {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+}
+
+.logo {
+   width: 200px;
+   background-color: #222222;
+   height: 60px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   color: #d9d9d9;
+   font-size: 20px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.lg-work-out {
+   background-color: #f2694b;
+   color: #f7f7f7;
+}
+
+.lg-train {
+   background-color: #49b5f2;
+   color: #f7f7f7;
+}
+
+.lg-info {
+   background-color: #f24a49;
+   color: #f7f7f7;
+}
+.lg-error {
+   background-color: #f24a49;
+   color: #f7f7f7;
+}
+.right_part {
+   width: 250px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
+   justify-content: end;
+}
+
+.timer {
+   width: 166px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+}
+
+.clock {
+   color: #f7f7f7;
+   opacity: 0.8;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 32px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.clock:hover {
+   opacity: 1;
+   cursor: pointer;
+}
