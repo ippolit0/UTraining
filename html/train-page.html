@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="../style/train-page.css" />
+      <link
+         rel="shortcut icon"
+         href="../other/favicon.ico"
+         type="image/x-icon" />
+      <title>UTrain</title>
+   </head>
+   <body>
+      <header>
+      
+         <nav class="header_top">
+            <div class="container">
+               <div class="header_top_inner">
+                  <div class="logo lg-train">Тренировка
+                     <a class="to-main-page" href="/UTraining/html/home">Главная</a>
+                  </div>
+                  <div class="right_part">
+                     <div class="timer">
+                        <p class="clock">00:00</p>
+                        <div class="range-block hidden">
+                           <input
+                              type="range"
+                              name="time-range"
+                              id="time-range"
+                              value="0" />
+                        </div>
+                        <button type="button" id="start-timer">
+                           <img src="../img/start_timer_btn.png" class="img-btn" />
+                        </button>
+                        <button type="button" id="clear-timer">
+                           <img src="../img/end_timer_btn.png" class="img-btn" />
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+
+            <div class="header_content">
+               <div class="container">
+                  <div class="header_content_inner">
+                  <div class="train_pack">
+                     <div class="train_img"><img src="../gif/training_gif.gif" width="100%"></div>
+                     <div class="train_info">
+                        <h3 class="doc_head">Это твой путь</h3>
+                        <p class="doc_body">Попробуйте собственноручно отобрать упражнения для своей собственной тренировки. У вас не будет ограничений по времени и строго отведенных секунд на отдых, все это вы учитываете сами (можете использовать таймер в правом вверхнем углу). В вашем арсенале все упражнения, что есть на этом сайте. Хорошей тренировки!                        
+                        </p>
+                     </div>
+                     <div class="btns_train">
+                        <button class="skipTrain hidden">Далее</button>
+                        <button class="start-btn hidden" id="btnOn">Старт</button>
+                     </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <div class="work_cards_checkbox">
+         <div class="container">
+            <div class="work_cards_checkbox_inner">
+            </div>
+            <div class="block-out none"></div>
+         </div>
+      </div>
+
+      <div class="infoBackground hidden">
+         <div class="trainingInfoBlock">
+            <h1>Вы закончили тренировку</h1>
+            <h2>00:00</h2>
+            <button class="closeInfoBlock"><img src="../img/cross.png"></button>
+         </div>
+      </div>
+      <script src="../js/train-page.js"></script>
+   </body>
+</html>
