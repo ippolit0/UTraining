@@ -101,7 +101,6 @@ const trainHeads = [
 let headOut = document.querySelector('.doc_head');
 let bodyOut = document.querySelector('.doc_body');
 window.onload = function () {
-   console.error('INDIVIDUAL PROJECT BY VLAD ANDREEV');
    let i = Math.floor(Math.random() * trainHeads.length);
    let outH = trainHeads[i];
    let outB = trainDoc[outH];
