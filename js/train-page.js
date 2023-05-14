@@ -47,7 +47,7 @@ const trainPack = [
    },
    { src: 'train_22.png', gif: 'train_22.gif', name: 'Я прыгающая морская звезда', id: 'train22' },
    { src: 'train_23.png', gif: 'train_23.gif', name: 'Косплей на ножницы', id: 'train23' },
-   { src: 'train_24.png', gif: 'train_24.gif', name: 'Молодежный кавказкий танец', id: 'train24' },
+   { src: 'train_24.png', gif: 'train_24.gif', name: 'Что это?', id: 'train24' },
    { src: 'train_25.png', gif: 'train_25.gif', name: 'Чередование ног и рук', id: 'train25' },
    {
       src: 'train_26.png',
