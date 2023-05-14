@@ -67,14 +67,14 @@ const workOutPack = {
       {
          src: 'train_6.png',
          gif: 'train_6.gif',
-         name: 'Кавказкий танец (ладно, шучу)',
+         name: 'И как это назвать?',
          id: 'train6',
          time: 30,
       },
       {
          src: 'train_24.png',
          gif: 'train_24.gif',
-         name: 'Молодежный кавказкий танец',
+         name: 'Что это?',
          id: 'train24',
          time: 30,
       },
@@ -154,7 +154,7 @@ const workOutPack = {
       {
          src: 'train_24.png',
          gif: 'train_24.gif',
-         name: 'Молодежный кавказкий танец',
+         name: 'Что это?',
          id: 'train24',
          time: 60,
       },
@@ -169,7 +169,7 @@ const workOutPack = {
       {
          src: 'train_6.png',
          gif: 'train_6.gif',
-         name: 'Кавказкий танец (ладно, шучу)',
+         name: 'И как это назвать?',
          id: 'train6',
          time: 30,
       },
@@ -190,7 +190,7 @@ const workOutPack = {
       {
          src: 'train_9.png',
          gif: 'train_9.gif',
-         name: 'Кавказкий танец 2.0',
+         name: 'Пытается танцевать',
          id: 'train9',
          time: 30,
       },
@@ -250,14 +250,14 @@ const workOutPack = {
       {
          src: 'train_9.png',
          gif: 'train_9.gif',
-         name: 'Кавказкий танец 2.0',
+         name: 'Пытается танцевать',
          id: 'train9',
          time: 60,
       },
       {
          src: 'train_24.png',
          gif: 'train_24.gif',
-         name: 'Молодежный кавказкий танец',
+         name: 'Что это?',
          id: 'train24',
          time: 60,
       },
@@ -272,7 +272,7 @@ const workOutPack = {
       {
          src: 'train_6.png',
          gif: 'train_6.gif',
-         name: 'Кавказкий танец (ладно, шучу)',
+         name: 'И как это назвать?',
          id: 'train6',
          time: 60,
       },
