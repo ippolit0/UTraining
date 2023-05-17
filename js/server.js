@@ -43,16 +43,6 @@ function getFilePath(url) {
    switch (ext) {
       case '.html':
          return join(__dirname, '../html/', url);
-      case '.css':
-         return join(__dirname, '..', url);
-      case '.js':
-         return join(__dirname, '..', url);
-      case '.jpeg':
-         return join(__dirname, '..', url);
-      case '.png':
-         return join(__dirname, '..', url);
-      case '.gif':
-         return join(__dirname, '..', url);
       default:
          return join(__dirname, '..', url);
    }
