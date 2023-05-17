@@ -6,6 +6,7 @@ let startBtnTime = document.querySelector('#start-timer');
 let clearBtn = document.querySelector('#clear-timer');
 
 function numToTime(num) {
+   if (num <= 0) return '00:00';
    let min = Math.trunc(num / 60);
    let sec = (num % 60) + '';
    if (+min < 10) min = '0' + min;
