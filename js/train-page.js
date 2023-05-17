@@ -195,10 +195,6 @@ function labelActive(e) {
    }
 }
 
-function openQueue() {
-   queueDocument.classList.toggle('queue-active');
-}
-
 checkBlock.addEventListener('mousedown', testAll);
 checkBlock.addEventListener('mousedown', labelActive);
 
