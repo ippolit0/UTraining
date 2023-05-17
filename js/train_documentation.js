@@ -102,8 +102,6 @@ let headOut = document.querySelector('.doc_head');
 let bodyOut = document.querySelector('.doc_body');
 window.onload = function () {
    let i = Math.floor(Math.random() * trainHeads.length);
-   let outH = trainHeads[i];
-   let outB = trainDoc[outH];
-   headOut.textContent = outH;
-   bodyOut.textContent = outB;
+   headOut.textContent = trainHeads[i];
+   bodyOut.textContent = trainDoc[outH];
 };
