@@ -1,1 +1,1 @@
-﻿# individual-project by Vlad Andreev
+﻿# individual project by Vlad Andreev
